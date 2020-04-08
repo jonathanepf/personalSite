@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+  </head>
+  <body>
+    <hr>
+    <h2>My contact details:</h2>
+    <ul>
+      <li>Email: jonathanepf@gmail.com</li>
+      <li>Phone number: 647-409-1424</li>
+      <li>Location: GTA, Ontario, Canada</li>
+    </ul>
+    <hr>
+    <h3>
+      Contact form
+    </h3>
+    <form action="mailto:jonathanepf@gmail.com" method="post" enctype="text/plain">
+    <table cellspacing="5">
+      <tr>
+        <td>
+          <label for="name">
+            Name:
+          </label>
+        </td>
+        <td>
+          <input type="text" name="name" value="" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="phone">
+            Phone Number (xxx-xxx-xxxx):
+          </label>
+        </td>
+        <td>
+          <input type="tel" name="phone" value="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="email">
+            Email:
+          </label>
+        </td>
+        <td>
+          <input type="email" name="email" value="" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Your Message:
+        </td>
+        <td>
+          <textarea name="message" rows="8" cols="80" required></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          When would you like to hear back from us?
+        </td>
+        <td>
+          <input type="date" name="responseDate" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Please include any file you consider necessary:
+        </td>
+        <td>
+          <input type="file" name="">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="signUp">
+            Would you like to sign up for our newsletter?
+          </label>
+        </td>
+        <td>
+          <input type="checkbox" name="" checked>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="submit" name="">
+        </td>
+        <td>
+          <input type="reset" name="">
+        </td>
+      </tr>
+    </table>
+
+
+    </form>
+  </body>
+</html>
